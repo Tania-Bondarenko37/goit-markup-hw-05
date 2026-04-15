@@ -511,7 +511,7 @@
               />
             </label>
 
-            <button class="footer-form-button" type="button">
+            <button class="footer-form-button" type="submit">
               Subscribe
               <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#subscribe-icon"></use>
@@ -589,19 +589,28 @@
           </div>
 
           <div>
-            <input type="checkbox" name="form-checkbox" class="" />
+            <label for="form-checkbox">
+              <input
+                id="form-checkbox"
+                type="checkbox"
+                name="form-checkbox"
+                class=""
+              />
 
-            <label>
-              <span class="form-checkbox"></span>
+              <span class="form-checkbox">
+                <svg class="check-mark-icon" width="10" height="8">
+                  <use href="./images/icons.svg#check-mark-icon"></use>
+                </svg>
+              </span>
+
+              <p class="form-checkbox-text">
+                I accept the terms and conditions of the
+                <a href="" class="form-checkbox-link"> Privacy Policy</a>
+              </p>
             </label>
-
-            <p class="form-checkbox-text">
-              I accept the terms and conditions of the
-              <a href="" class="form-checkbox-link"> Privacy Policy</a>
-            </p>
           </div>
 
-          <button class="form-button" type="button">Send</button>
+          <button class="form-button" type="submit">Send</button>
         </form>
       </div>
     </div>

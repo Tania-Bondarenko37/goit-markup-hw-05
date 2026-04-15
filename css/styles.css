@@ -701,6 +701,7 @@ ul, ol {
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin-bottom: 4px;
+    display: block;
 }
 
 .form-input {
@@ -718,7 +719,10 @@ ul, ol {
     position: absolute;
     left: 24px;
     margin: 8px 16px;
+}
 
+.input-wrapper {
+    position: static;
 }
 
 .form-input:focus {
@@ -756,6 +760,10 @@ ul, ol {
 
 input:checked + label > .form-checkbox {
     border: 1px solid rgba(46, 47, 66, 0.4);  
+}
+
+.check-mark-icon {
+  
 }
 
 .form-checkbox-text {
