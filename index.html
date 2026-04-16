@@ -501,15 +501,14 @@
           <p class="footer-subscribe-text">Subscribe</p>
 
           <form class="footer-form">
-            <label for="footer-user-email">
-              <input
-                type="email"
-                id="footer-user-email"
-                name="footer-user-email"
-                placeholder="E-mail"
-                class="footer-input"
-              />
-            </label>
+            <label for="footer-user-email"></label>
+            <input
+              type="email"
+              id="footer-user-email"
+              name="footer-user-email"
+              placeholder="E-mail"
+              class="footer-input"
+            />
 
             <button class="footer-form-button" type="submit">
               Subscribe
@@ -532,9 +531,9 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
 
         <form>
-          <div>
+          <div class="input-wrapper">
             <label for="form-user-name" class="form-label-text"> Name </label>
-            <div class="input-wrapper">
+            <div class="input-icon-wrapper">
               <input
                 type="text"
                 id="form-user-name"
@@ -547,9 +546,9 @@
               </svg>
             </div>
           </div>
-          <div>
+          <div class="input-wrapper">
             <label for="form-user-phone" class="form-label-text"> Phone </label>
-            <div class="input-wrapper">
+            <div class="input-icon-wrapper">
               <input
                 type="tel"
                 id="form-user-phone"
@@ -562,9 +561,9 @@
               </svg>
             </div>
           </div>
-          <div>
+          <div class="input-wrapper">
             <label for="form-user-email" class="form-label-text"> Email </label>
-            <div class="input-wrapper">
+            <div class="input-icon-wrapper">
               <input
                 type="email"
                 id="form-user-email"
@@ -589,24 +588,23 @@
           </div>
 
           <div>
-            <label for="form-checkbox">
-              <input
-                id="form-checkbox"
-                type="checkbox"
-                name="form-checkbox"
-                class=""
-              />
+            <input
+              id="form-checkbox"
+              name="form-checkbox"
+              type="checkbox"
+              class="form-checkbox-input visually-hidden"
+              value="yes"
+            />
 
-              <span class="form-checkbox">
-                <svg class="check-mark-icon" width="10" height="8">
+            <label for="form-checkbox" class="form-checkbox-text">
+              <span class="checkbox-span">
+                <svg class="" width="10" height="8">
                   <use href="./images/icons.svg#check-mark-icon"></use>
                 </svg>
               </span>
 
-              <p class="form-checkbox-text">
-                I accept the terms and conditions of the
-                <a href="" class="form-checkbox-link"> Privacy Policy</a>
-              </p>
+              I accept the terms and conditions of the
+              <a href=""> Privacy Policy</a>
             </label>
           </div>
 
